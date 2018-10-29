@@ -39,15 +39,16 @@
 }
 .catSelection li {
   text-align: center;
-  padding: 5px;
+  padding: 10px;
 }
 .catItem:hover {
-  background-color: var(--link-blue);
-  border: 1px solid var(--modal-orange);
-  cursor: pointer;
+background-color: var(--link-blue);
+border: 1px var(--modal-orange);
+cursor: pointer;
   color: var(--light-gray);
 }
 .catSelection_modal, .instructions {
+
   border-top: 5px solid var(--modal-orange);
   background-color: rgb(243, 243, 243);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
